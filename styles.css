@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: url(https://zoomdigital.com.br/wp-content/uploads/2016/03/shutterstock_303181571-768x576.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 840px;
+    height: 850px;
+    border-radius: 10px;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border: 3px solid #bbb3bb;
+    border-radius: 10px;
+
+}
+
+
+img {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.quadro-um {
+    width: 330px;
+    height: 68px;
+    border-radius: 14px;
+    border: 1px solid ;
+    color: #FFFFFF ;
+    background-color: rgb(56, 55, 55);
+    position: relative;
+    margin-left: 84px;
+    margin-right: 30px;
+    font-size: 40px;
+    line-height: 45px;
+    opacity: 0.7;
+}
+
+.quadro-dois {
+    width: 330px;
+    height: 68px;
+    border-radius: 14px;
+    border: 1px solid;
+    color: #FFFFFF ;
+    background-color: rgb(56, 56, 56);
+    position: relative;
+    font-size: 40px;
+    line-height: 45px;
+    opacity: 0.7;
+}
+
+
+button {
+    position: relative;
+    margin: 70px 0 0 250px;
+    text-align: center;
+    width: 342px;
+    height: 68px;
+    background-color: #08265f;
+    color: #FFFFFF;
+    font-size: 33px;
+    font-weight: 700;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid #525717;
+}
